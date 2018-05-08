@@ -27,7 +27,32 @@ namespace Letalka
             foreach (WorldObject wo in objects) {
                 wo.Update(gameTime);
             }
+            calculateCollisions();
+            cleanUp();
+
         }
+        private void calculateCollisions() {
+            //ToDo: better collision algorithm
+            foreach (WorldObject wo1 in objects)
+            {
+                foreach (WorldObject wo2 in objects)
+                {
+                    if (wo1 != wo2 && (wo1.position - wo2.position).LengthSquared() < (wo1.dimentoins + wo2.dimentoins - 7300) )
+                    {
+                        wo1.onCollision(wo2);
+                        wo2.onCollision(wo1);
+                    }
+                }
+            }
+        }
+        private void cleanUp()
+        {
+            for(int i = 0; i < objects.Count; i++)
+            {
+                if (objects[i].deleteMe) objects.Remove(objects[i]);
+            }
+        }
+
         public void Draw(SpriteBatch spriteBatch)
         {
             foreach (WorldObject wo in objects)

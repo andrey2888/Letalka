@@ -47,7 +47,7 @@ namespace Letalka
             {
                 spaceship.Fire();
             }
-            spaceship.Update(gameTime);
+            //spaceship.Update(gameTime);
         }
         
     }

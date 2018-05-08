@@ -27,6 +27,16 @@ namespace Letalka
         public float width;
         public float angle;
         public float angularSpeed;
+        
+        public bool deleteMe { get; protected set; } //kostil or norm?
+        public float dimentoins { get { return length * length + width * width; } }
+        public virtual void getDamage(float damage)
+        {
+        }
+        public virtual void onCollision(WorldObject other/*,some colision info*/)
+        {
+            deleteMe = true;
+        }
         //public double mass;
         public virtual void Update(GameTime gameTime)
         {

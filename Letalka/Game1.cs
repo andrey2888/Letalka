@@ -13,7 +13,6 @@ namespace Letalka
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
         Spaceship spaceship;
-        Spaceship spaceship2;
         PlayerShip playerShip;
         LTH playerLTH;
         World world;
@@ -49,17 +48,24 @@ namespace Letalka
             graphics.IsFullScreen = true;
             graphics.ApplyChanges();
             Vector2 playerPosition = new Vector2(GraphicsDevice.Viewport.TitleSafeArea.X, GraphicsDevice.Viewport.TitleSafeArea.Y + GraphicsDevice.Viewport.TitleSafeArea.Height / 2);//dich
-            playerLTH = new LTH(0.05f,0.025f,0.015f,0.00025f,50,75);
+            playerLTH = new LTH(0.1f,0.05f,0.03f,0.0005f,50,75);
             pulemetTex = Content.Load<Texture2D>("projectiles/bullet1");
             pulemet = new GunType(0.1f, 0.0f, 20f, pulemetTex);
             spaceship = new Spaceship(Content.Load<Texture2D>("space/vs2"),playerLTH,playerPosition,0.0f);
             spaceship.AddGun(pulemet, new Vector2(0f,  20f));
             spaceship.AddGun(pulemet, new Vector2(0f, -20f));
-            spaceship2 = new Spaceship(Content.Load<Texture2D>("space/vs1"), playerLTH, playerPosition + new Vector2(500,0), 0.0f);
 
-            spaceship2.speed = Vector2.UnitX;
-            spaceship2.angularSpeed = 0.03f;
-            playerShip = new PlayerShip(spaceship);
+            Spaceship[] spaceship2 = new Spaceship[10];
+            for (int i = 0; i < 10; i++)
+            {
+                spaceship2[i] = new Spaceship(Content.Load<Texture2D>("space/vs1"), playerLTH, playerPosition + new Vector2(500, 0), 0.0f);
+                spaceship2[i].speed = Vector2Extension.Rotate(Vector2.UnitX, i);
+                spaceship2[i].angularSpeed = 0.03f;
+                playerShip = new PlayerShip(spaceship);
+                world.objects.Add(spaceship2[i]);
+            }
+            world.objects.Add(spaceship);
+            
             base.Initialize();
         }
 
@@ -71,7 +77,7 @@ namespace Letalka
         {
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
-            backgroundTexture = Content.Load<Texture2D>("space/4");
+            backgroundTexture = Content.Load<Texture2D>("space/5");
            
 
             // TODO: use this.Content to load your game content here
@@ -97,8 +103,8 @@ namespace Letalka
                 Exit();
             // TODO: Add your update logic here
             playerShip.Update(gameTime);
-            spaceship.Update(gameTime);
-            spaceship2.Update(gameTime);
+            //spaceship.Update(gameTime);
+            //spaceship2.Update(gameTime);
             world.Update(gameTime);
 
             base.Update(gameTime);
@@ -114,8 +120,6 @@ namespace Letalka
             spriteBatch.Begin();
             float ratio = GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Width / (float)backgroundTexture.Width;
             spriteBatch.Draw(backgroundTexture, Vector2.Zero, null, Color.White, 0.0f, Vector2.Zero, ratio , SpriteEffects.None, 1.0f);
-            spaceship.Draw(spriteBatch);
-            spaceship2.Draw(spriteBatch);
             world.Draw(spriteBatch);
             spriteBatch.End();
             // TODO: Add your drawing code here

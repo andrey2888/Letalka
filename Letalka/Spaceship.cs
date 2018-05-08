@@ -13,9 +13,9 @@ namespace Letalka
         public LTH lth;
         //public WorldObject body;
         public Texture2D texture; //Finga
-
+        public float HP = 100;
         private List<Gun> Guns;
-
+        
         public Spaceship(Texture2D texture, LTH lth, Vector2 position, float angle):base(position, lth.length, lth.width)
         {
             this.angle   = angle;
@@ -62,6 +62,15 @@ namespace Letalka
             {
                 g.Fire();
             }
+        }
+        public override void onCollision(WorldObject other)
+        {
+           
+        }
+        public override void getDamage(float damage)
+        {
+            HP -= damage;
+            if (HP < 0) deleteMe = true;
         }
         public override void Draw(SpriteBatch spriteBatch)
         {
