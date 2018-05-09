@@ -37,7 +37,7 @@ namespace Letalka
             {
                 foreach (WorldObject wo2 in objects)
                 {
-                    if (wo1 != wo2 && (wo1.position - wo2.position).LengthSquared() < (wo1.dimentoins + wo2.dimentoins - 7300) )
+                    if (wo1 != wo2 && (wo1.position - wo2.position).LengthSquared() < (wo1.dimentoins + wo2.dimentoins) )
                     {
                         wo1.onCollision(wo2);
                         wo2.onCollision(wo1);

@@ -29,7 +29,7 @@ namespace Letalka
         public float angularSpeed;
         
         public bool deleteMe { get; protected set; } //kostil or norm?
-        public float dimentoins { get { return length * length + width * width; } }
+        public float dimentoins { get { return length * length / 4  + width * width / 4; } }
         public virtual void getDamage(float damage)
         {
         }

@@ -12,7 +12,7 @@ namespace Letalka
     {
         Texture2D texture;
         float flightTime = 0;
-        float invincibleTime = 0.08f;
+        float invincibleTime = 0.05f;//calculate this
         float lifeTime = 10;
         public Bullet(Vector2 position, float length, float width, Texture2D texture):base(position,length,width)
         {
@@ -26,6 +26,7 @@ namespace Letalka
         public override void Update(GameTime gameTime)
         {
             flightTime += (float)gameTime.ElapsedGameTime.TotalSeconds;
+            if (flightTime > lifeTime) deleteMe = true;
             base.Update(gameTime);
 
         }
