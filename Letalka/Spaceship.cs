@@ -14,6 +14,7 @@ namespace Letalka
         //public WorldObject body;
         public Texture2D texture; //Finga
         public float HP = 100;
+        public float AP = 100;
         private List<Gun> Guns;
         
         public Spaceship(Texture2D texture, LTH lth, Vector2 position, float angle):base(position, lth.length, lth.width)
@@ -69,6 +70,16 @@ namespace Letalka
         }
         public override void getDamage(float damage)
         {
+            if (damage < AP)
+            {
+                AP -= damage;
+                damage = 0;
+            }
+            else
+            {
+                AP = 0;
+                damage -= AP;
+            }
             HP -= damage;
             if (HP < 0) deleteMe = true;
         }
@@ -86,6 +97,8 @@ namespace Letalka
         }
         public override void Update(GameTime gameTime)
         {
+            AP += 10 * (float)gameTime.ElapsedGameTime.TotalSeconds;
+            if (AP > 100) AP = 100;
             foreach (Gun g in Guns)
             {
                 g.Update(gameTime);

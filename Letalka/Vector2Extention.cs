@@ -20,5 +20,9 @@ namespace Letalka
             v.Y = (sin * tx) + (cos * ty);
             return v;
         }
+        public static float angle(this Vector2 v)
+        {
+            return (float)Math.Atan2(v.Y, v.X);
+        }
     }
 }

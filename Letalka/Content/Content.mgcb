@@ -229,3 +229,10 @@
 /processorParam:TextureFormat=Color
 /build:projectiles/bullet1.png
 
+#begin Font.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Compressed
+/build:Font.spritefont
+

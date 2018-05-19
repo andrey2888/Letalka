@@ -41,11 +41,15 @@
     <ApplicationManifest>app.manifest</ApplicationManifest>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Angle.cs" />
     <Compile Include="Bullet.cs" />
+    <Compile Include="ComputerShip.cs" />
+    <Compile Include="DebugString.cs" />
     <Compile Include="Game1.cs" />
     <Compile Include="Gun.cs" />
     <Compile Include="GunType.cs" />
     <Compile Include="LTH.cs" />
+    <Compile Include="Player.cs" />
     <Compile Include="playerShip.cs" />
     <Compile Include="Spaceship.cs" />
     <Compile Include="Vector2Extention.cs" />

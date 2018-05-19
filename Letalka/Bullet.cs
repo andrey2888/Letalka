@@ -35,7 +35,7 @@ namespace Letalka
             if (flightTime > invincibleTime)
             {
                 deleteMe = true;
-                other.getDamage(3.333f);
+                other.getDamage(7f);
             }
         }
     }

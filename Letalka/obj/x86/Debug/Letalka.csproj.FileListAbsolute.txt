@@ -40,3 +40,4 @@ D:\projects\MonoLetalka\Letalka\Letalka\bin\Windows\x86\Debug\Content\space\vs3.
 D:\projects\MonoLetalka\Letalka\Letalka\bin\Windows\x86\Debug\Content\space\vs4.xnb
 D:\projects\MonoLetalka\Letalka\Letalka\bin\Windows\x86\Debug\Content\space\vs5.xnb
 D:\projects\MonoLetalka\Letalka\Letalka\bin\Windows\x86\Debug\Content\projectiles\bullet1.xnb
+D:\projects\MonoLetalka\Letalka\Letalka\bin\Windows\x86\Debug\Content\Font.xnb

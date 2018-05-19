@@ -9,21 +9,29 @@ namespace Letalka
 {
     class World
     {
-
+        //ToDo:Player list
         public float Height;
         public float Width;
+        public List<WorldObject> objects;
+        public List<Player> players;
+        public Spaceship playerShip;
+
 
         static World instance = null;
         private World(){
             objects = new List<WorldObject>();
+            players = new List<Player>();
         }
         public static World getInstance() {
             if(instance == null) instance = new World();
             return instance;
         }
-        public List<WorldObject> objects;
         public void Update(GameTime gameTime)
         {
+            foreach (Player p in players)
+            {
+                p.Update(gameTime);
+            }
             foreach (WorldObject wo in objects) {
                 wo.Update(gameTime);
             }

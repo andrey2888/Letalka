@@ -8,7 +8,7 @@ using Microsoft.Xna.Framework.Input;
 
 namespace Letalka
 {
-    class PlayerShip
+    class PlayerShip:Player
     {
 
         public Spaceship spaceship;
@@ -47,6 +47,7 @@ namespace Letalka
             {
                 spaceship.Fire();
             }
+            DebugString.toPrint = spaceship.HP + "   " + spaceship.AP;
             //spaceship.Update(gameTime);
         }
         
