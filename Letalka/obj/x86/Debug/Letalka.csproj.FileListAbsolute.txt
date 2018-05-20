@@ -41,6 +41,7 @@ D:\projects\MonoLetalka\Letalka\Letalka\bin\Windows\x86\Debug\Content\space\vs4.
 D:\projects\MonoLetalka\Letalka\Letalka\bin\Windows\x86\Debug\Content\space\vs5.xnb
 D:\projects\MonoLetalka\Letalka\Letalka\bin\Windows\x86\Debug\Content\projectiles\bullet1.xnb
 D:\projects\MonoLetalka\Letalka\Letalka\bin\Windows\x86\Debug\Content\Font.xnb
+<<<<<<< HEAD
 E:\z\8151937\ПиАПС\lhab\Letalka\Letalka\bin\Windows\x86\Debug\Content\space\1.xnb
 E:\z\8151937\ПиАПС\lhab\Letalka\Letalka\bin\Windows\x86\Debug\Content\space\2.xnb
 E:\z\8151937\ПиАПС\lhab\Letalka\Letalka\bin\Windows\x86\Debug\Content\space\3.xnb
@@ -88,3 +89,6 @@ E:\z\8151937\ПиАПС\lhab\Letalka\Letalka\obj\x86\Debug\Letalka.pdb
 E:\z\8151937\ПиАПС\lhab\Letalka\Letalka\bin\Windows\x86\Debug\Content\space\exit.xnb
 E:\z\8151937\ПиАПС\lhab\Letalka\Letalka\bin\Windows\x86\Debug\Content\space\menu.xnb
 E:\z\8151937\ПиАПС\lhab\Letalka\Letalka\bin\Windows\x86\Debug\Content\space\newgame.xnb
+=======
+D:\projects\MonoLetalka\Letalka\Letalka\bin\Windows\x86\Debug\Content\projectiles\bullet2.xnb
+>>>>>>> fd558fe4b864f672d4fce0a2ea550be29b4414f7

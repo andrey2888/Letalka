@@ -12,13 +12,16 @@ namespace Letalka
         public float coolDown;
         public float damage;
         public float bulletSpeed;
-        public Texture2D bulletTexture;
-        public GunType(float coolDown, float damage, float bulletSpeed, Texture2D bulletTexture)
+        public Bullet bulletPrototype;
+        public float accuracy;
+        //public Texture2D bulletTexture;
+        public GunType(float coolDown, float damage, float bulletSpeed, Bullet bulletPrototype, float accuracy = 0)
         {
             this.coolDown = coolDown;
             this.damage = damage;
             this.bulletSpeed = bulletSpeed;
-            this.bulletTexture = bulletTexture;
+            this.bulletPrototype = bulletPrototype;
+            this.accuracy = accuracy;
         }
         //bullet - prototipe?
         //кстати ИИ - стратегия наверн

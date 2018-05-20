@@ -236,7 +236,11 @@
 /processorParam:TextureFormat=Compressed
 /build:Font.spritefont
 
+<<<<<<< HEAD
 #begin space/exit.png
+=======
+#begin projectiles/bullet2.png
+>>>>>>> fd558fe4b864f672d4fce0a2ea550be29b4414f7
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -246,6 +250,7 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
+<<<<<<< HEAD
 /build:space/exit.png
 
 #begin space/menu.png
@@ -271,4 +276,7 @@
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:space/newgame.png
+=======
+/build:projectiles/bullet2.png
+>>>>>>> fd558fe4b864f672d4fce0a2ea550be29b4414f7
 

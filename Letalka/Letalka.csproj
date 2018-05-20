@@ -44,6 +44,7 @@
     <Compile Include="Angle.cs" />
     <Compile Include="Bullet.cs" />
     <Compile Include="ComputerShip.cs" />
+    <Compile Include="MagnetBullet.cs" />
     <Compile Include="DebugString.cs" />
     <Compile Include="Game1.cs" />
     <Compile Include="Gun.cs" />

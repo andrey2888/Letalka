@@ -9,13 +9,11 @@ namespace Letalka
 {
     class World
     {
-        //ToDo:Player list
         public float Height;
         public float Width;
-        public List<WorldObject> objects;
+        private List<WorldObject> objects;
         public List<Player> players;
         public Spaceship playerShip;
-
 
         static World instance = null;
         private World(){
@@ -37,7 +35,10 @@ namespace Letalka
             }
             calculateCollisions();
             cleanUp();
-
+        }
+        public void AddObject(WorldObject worldObject)
+        {
+            objects.Add(worldObject);
         }
         private void calculateCollisions() {
             //ToDo: better collision algorithm
@@ -47,8 +48,8 @@ namespace Letalka
                 {
                     if (wo1 != wo2 && (wo1.position - wo2.position).LengthSquared() < (wo1.dimentoins + wo2.dimentoins) )
                     {
-                        wo1.onCollision(wo2);
-                        wo2.onCollision(wo1);
+                       if(wo2.solid) wo1.onCollision(wo2);
+                       //if(wo1.solid) wo2.onCollision(wo1);
                     }
                 }
             }
@@ -88,6 +89,32 @@ namespace Letalka
             b1 = b + new Vector2(Width, -Height);
             if (b1.LengthSquared() < b.LengthSquared()) b = b1;
 
+            return ret;
+        }
+        public Vector2 ClosestObject(WorldObject a)
+        {
+            Vector2 ret = new Vector2(Width,Height);
+            foreach (WorldObject wo1 in objects)
+            {
+                if (a != wo1)
+                {
+                    Vector2 ret2 = ShortestPath(a.position, wo1.position);
+                    if (ret.LengthSquared() > ret2.LengthSquared()) ret = ret2;
+                }
+            }
+            return ret;
+        }
+        public Vector2 ClosestSolidObject(WorldObject a)
+        {
+            Vector2 ret = new Vector2(Width, Height);
+            foreach (WorldObject wo1 in objects)
+            {
+                if (a != wo1 && wo1.solid)
+                {
+                    Vector2 ret2 = ShortestPath(a.position, wo1.position);
+                    if (ret.LengthSquared() > ret2.LengthSquared()) ret = ret2;
+                }
+            }
             return ret;
         }
     }

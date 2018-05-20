@@ -27,6 +27,7 @@ namespace Letalka
         public float width;
         public float angle;
         public float angularSpeed;
+        public bool solid = true;
         
         public bool deleteMe { get; protected set; } //kostil or norm?
         public float dimentoins { get { return length * length / 4  + width * width / 4; } }
