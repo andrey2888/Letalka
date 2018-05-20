@@ -66,5 +66,7 @@ namespace Letalka
         public void ApplyForce(Vector2 direction) {
             speed += direction;
         }
+
+
     }
 }

@@ -48,10 +48,14 @@
     <Compile Include="Game1.cs" />
     <Compile Include="Gun.cs" />
     <Compile Include="GunType.cs" />
+    <Compile Include="IMediator.cs" />
+    <Compile Include="IObserver.cs" />
+    <Compile Include="ISubject.cs" />
     <Compile Include="LTH.cs" />
     <Compile Include="Player.cs" />
     <Compile Include="playerShip.cs" />
     <Compile Include="Spaceship.cs" />
+    <Compile Include="SubjectEntityState.cs" />
     <Compile Include="Vector2Extention.cs" />
     <Compile Include="World.cs" />
     <Compile Include="WorldObject.cs" />

@@ -4,24 +4,24 @@
   <Platform>Windows</Platform>
   <Config />
   <SourceFiles>
-    <File>D:/projects/MonoLetalka/Letalka/Letalka/Content/spaceship.bmp</File>
-    <File>D:/projects/MonoLetalka/Letalka/Letalka/Content/space/1.jpg</File>
-    <File>D:/projects/MonoLetalka/Letalka/Letalka/Content/space/2.jpg</File>
-    <File>D:/projects/MonoLetalka/Letalka/Letalka/Content/space/3.jpg</File>
-    <File>D:/projects/MonoLetalka/Letalka/Letalka/Content/space/4.jpg</File>
-    <File>D:/projects/MonoLetalka/Letalka/Letalka/Content/space/5.jpg</File>
-    <File>D:/projects/MonoLetalka/Letalka/Letalka/Content/space/6.jpg</File>
-    <File>D:/projects/MonoLetalka/Letalka/Letalka/Content/space/s1.png</File>
-    <File>D:/projects/MonoLetalka/Letalka/Letalka/Content/space/s2.png</File>
-    <File>D:/projects/MonoLetalka/Letalka/Letalka/Content/space/s3.png</File>
-    <File>D:/projects/MonoLetalka/Letalka/Letalka/Content/space/s4.png</File>
-    <File>D:/projects/MonoLetalka/Letalka/Letalka/Content/space/s5.png</File>
-    <File>D:/projects/MonoLetalka/Letalka/Letalka/Content/space/vs1.png</File>
-    <File>D:/projects/MonoLetalka/Letalka/Letalka/Content/space/vs2.png</File>
-    <File>D:/projects/MonoLetalka/Letalka/Letalka/Content/space/vs3.png</File>
-    <File>D:/projects/MonoLetalka/Letalka/Letalka/Content/space/vs4.png</File>
-    <File>D:/projects/MonoLetalka/Letalka/Letalka/Content/space/vs5.png</File>
-    <File>D:/projects/MonoLetalka/Letalka/Letalka/Content/projectiles/bullet1.png</File>
-    <File>D:/projects/MonoLetalka/Letalka/Letalka/Content/Font.spritefont</File>
+    <File>f:/miet/source/piaps/Letalka/Letalka/Content/spaceship.bmp</File>
+    <File>f:/miet/source/piaps/Letalka/Letalka/Content/space/1.jpg</File>
+    <File>f:/miet/source/piaps/Letalka/Letalka/Content/space/2.jpg</File>
+    <File>f:/miet/source/piaps/Letalka/Letalka/Content/space/3.jpg</File>
+    <File>f:/miet/source/piaps/Letalka/Letalka/Content/space/4.jpg</File>
+    <File>f:/miet/source/piaps/Letalka/Letalka/Content/space/5.jpg</File>
+    <File>f:/miet/source/piaps/Letalka/Letalka/Content/space/6.jpg</File>
+    <File>f:/miet/source/piaps/Letalka/Letalka/Content/space/s1.png</File>
+    <File>f:/miet/source/piaps/Letalka/Letalka/Content/space/s2.png</File>
+    <File>f:/miet/source/piaps/Letalka/Letalka/Content/space/s3.png</File>
+    <File>f:/miet/source/piaps/Letalka/Letalka/Content/space/s4.png</File>
+    <File>f:/miet/source/piaps/Letalka/Letalka/Content/space/s5.png</File>
+    <File>f:/miet/source/piaps/Letalka/Letalka/Content/space/vs1.png</File>
+    <File>f:/miet/source/piaps/Letalka/Letalka/Content/space/vs2.png</File>
+    <File>f:/miet/source/piaps/Letalka/Letalka/Content/space/vs3.png</File>
+    <File>f:/miet/source/piaps/Letalka/Letalka/Content/space/vs4.png</File>
+    <File>f:/miet/source/piaps/Letalka/Letalka/Content/space/vs5.png</File>
+    <File>f:/miet/source/piaps/Letalka/Letalka/Content/projectiles/bullet1.png</File>
+    <File>f:/miet/source/piaps/Letalka/Letalka/Content/Font.spritefont</File>
   </SourceFiles>
 </SourceFileCollection>
