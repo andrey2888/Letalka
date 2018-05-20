@@ -62,10 +62,10 @@ namespace Letalka
             Spaceship[] spaceship2 = new Spaceship[10];
             for (int i = 0; i < 5; i++)
             {
-                spaceship2[i] = new Spaceship(Content.Load<Texture2D>("space/vs1"), compLTH, playerPosition + new Vector2(1000, 500), 0.0f);
+                spaceship2[i] = new Spaceship(Content.Load<Texture2D>("space/vs1"), compLTH, playerPosition + new Vector2(1000, -500), 0.0f);
                 spaceship2[i].speed = Vector2Extension.Rotate(Vector2.UnitX, i);
-                spaceship2[i].angularSpeed = 0.0f;
-                spaceship2[i].angle = (float)Math.PI;
+                //spaceship2[i].angularSpeed = 0.0f;
+                spaceship2[i].angle = (float)-Math.PI/2;
                 spaceship2[i].AddGun(pulemet, new Vector2(20f, 0f));
                 
                 world.objects.Add(spaceship2[i]);

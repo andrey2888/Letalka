@@ -68,5 +68,27 @@ namespace Letalka
                  wo.Draw(spriteBatch);
             }
         }
+
+        public Vector2 ShortestPath(Vector2 a, Vector2 b) {
+            Vector2 ret = b - a;
+            Vector2 b1 = b + new Vector2(Width, 0);
+            if (b1.LengthSquared() < b.LengthSquared()) b = b1;
+            b1 = b + new Vector2(Width, Height);
+            if (b1.LengthSquared() < b.LengthSquared()) b = b1;
+            b1 = b + new Vector2(0, Height);
+            if (b1.LengthSquared() < b.LengthSquared()) b = b1;
+            b1 = b + new Vector2(-Width, Height);
+            if (b1.LengthSquared() < b.LengthSquared()) b = b1;
+            b1 = b + new Vector2(-Width, 0);
+            if (b1.LengthSquared() < b.LengthSquared()) b = b1;
+            b1 = b + new Vector2(-Width, -Height);
+            if (b1.LengthSquared() < b.LengthSquared()) b = b1;
+            b1 = b + new Vector2(0, -Height);
+            if (b1.LengthSquared() < b.LengthSquared()) b = b1;
+            b1 = b + new Vector2(Width, -Height);
+            if (b1.LengthSquared() < b.LengthSquared()) b = b1;
+
+            return ret;
+        }
     }
 }
