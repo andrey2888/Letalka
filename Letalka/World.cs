@@ -9,13 +9,11 @@ namespace Letalka
 {
     class World
     {
-        //ToDo:Player list
         public float Height;
         public float Width;
-        public List<WorldObject> objects;
+        private List<WorldObject> objects;
         public List<Player> players;
         public Spaceship playerShip;
-
 
         static World instance = null;
         private World(){
@@ -37,7 +35,10 @@ namespace Letalka
             }
             calculateCollisions();
             cleanUp();
-
+        }
+        public void AddObject(WorldObject worldObject)
+        {
+            objects.Add(worldObject);
         }
         private void calculateCollisions() {
             //ToDo: better collision algorithm

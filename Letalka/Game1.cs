@@ -68,10 +68,10 @@ namespace Letalka
                 spaceship2[i].angle = (float)-Math.PI/2;
                 spaceship2[i].AddGun(pulemet, new Vector2(20f, 0f));
                 
-                world.objects.Add(spaceship2[i]);
+                world.AddObject(spaceship2[i]);
                 world.players.Add(new ComputerShip(spaceship2[i]));
             }
-            world.objects.Add(spaceship);
+            world.AddObject(spaceship);
             
             base.Initialize();
         }

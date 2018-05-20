@@ -27,10 +27,6 @@ namespace Letalka
         public void AddGun(GunType type, Vector2 position) {
             Guns.Add(new Gun(position,type,this));
         }
-        /*public void Initialize()
-        {
-
-        }*/
         
         //ToDo: make fps independent
         public void GoForward()
@@ -105,7 +101,5 @@ namespace Letalka
             }
             base.Update(gameTime);
         }
-    }
-
-    
+    }    
 }

@@ -35,7 +35,7 @@ namespace Letalka
                 Bullet bullet = new Bullet(parent.position + Vector2Extension.Rotate(position,parent.angle), 10, 5, type.bulletTexture);
                 bullet.angle = parent.angle;
                 bullet.speed = new Vector2((float)Math.Cos(parent.angle)*type.bulletSpeed,(float)Math.Sin(parent.angle)*type.bulletSpeed) + parent.speed;                
-                World.getInstance().objects.Add(bullet);
+                World.getInstance().AddObject(bullet);
             }
         }
     }
