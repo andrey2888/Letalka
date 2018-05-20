@@ -14,8 +14,10 @@ namespace Letalka
         float flightTime = 0;
         float invincibleTime = 0.05f;//calculate this
         float lifeTime = 10;
-        public Bullet(Vector2 position, float length, float width, Texture2D texture):base(position,length,width)
+        float damage;
+        public Bullet(Vector2 position, float damage, float length, float width, Texture2D texture):base(position,length,width)
         {
+            this.damage = damage;
             this.texture = texture;
         }
         public override void Draw(SpriteBatch spriteBatch)
@@ -35,8 +37,12 @@ namespace Letalka
             if (flightTime > invincibleTime)
             {
                 deleteMe = true;
-                other.getDamage(7f);
+                other.getDamage(damage);
             }
+        }
+        public Bullet Clone()
+        {
+            return new Bullet(position,damage,length,width,texture);
         }
     }
 }

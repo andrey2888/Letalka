@@ -73,8 +73,8 @@ namespace Letalka
             }
             else
             {
-                AP = 0;
                 damage -= AP;
+                AP = 0;
             }
             HP -= damage;
             if (HP < 0) deleteMe = true;

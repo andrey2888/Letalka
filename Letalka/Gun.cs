@@ -32,7 +32,9 @@ namespace Letalka
             {
                 lastShot = type.coolDown;
                 Vector2 direction = new Vector2((float)Math.Cos(parent.angle),(float)Math.Sin(parent.angle));
-                Bullet bullet = new Bullet(parent.position + Vector2Extension.Rotate(position,parent.angle), 10, 5, type.bulletTexture);
+                //Bullet bullet = new Bullet(parent.position + Vector2Extension.Rotate(position,parent.angle), 10, 5, type);
+                Bullet bullet = type.bulletPrototype.Clone();
+                bullet.position = parent.position + Vector2Extension.Rotate(position, parent.angle);
                 bullet.angle = parent.angle;
                 bullet.speed = new Vector2((float)Math.Cos(parent.angle)*type.bulletSpeed,(float)Math.Sin(parent.angle)*type.bulletSpeed) + parent.speed;                
                 World.getInstance().AddObject(bullet);

@@ -52,10 +52,15 @@ namespace Letalka
             playerLTH = new LTH(0.1f,0.05f,0.03f,0.0005f,50,75);
             compLTH = new LTH(0.1f, 0.05f, 0.03f, 0.0005f, 50, 75);
             pulemetTex = Content.Load<Texture2D>("projectiles/bullet1");
-            pulemet = new GunType(0.1f, 0.3f, 20f, pulemetTex);
+            Bullet pulemetBullet = new Bullet(Vector2.Zero, 7f, 10, 5, pulemetTex);
+            pulemet = new GunType(0.1f, 7f, 20f, pulemetBullet);
+            Texture2D plasmaTex = Content.Load<Texture2D>("projectiles/bullet2");
+            Bullet plasmaBullet = new Bullet(Vector2.Zero, 100f, 30, 15, plasmaTex);
+            GunType plasmamet = new GunType(0.1f, 7f, 5f, plasmaBullet);
             spaceship = new Spaceship(Content.Load<Texture2D>("space/s2"),playerLTH,playerPosition,0.0f);
-            spaceship.AddGun(pulemet, new Vector2(0f,  20f));
-            spaceship.AddGun(pulemet, new Vector2(0f, -20f));
+            /*spaceship.AddGun(pulemet, new Vector2(0f,  20f));
+            spaceship.AddGun(pulemet, new Vector2(0f, -20f));*/
+            spaceship.AddGun(plasmamet, new Vector2(40f, 0f));
             playerShip = new PlayerShip(spaceship);
             world.playerShip = spaceship;
             world.players.Add(playerShip);
