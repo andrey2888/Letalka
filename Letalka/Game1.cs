@@ -19,10 +19,14 @@ namespace Letalka
         World world;
         GunType pulemet;
         Texture2D pulemetTex;
+
+        Menu menu;
+
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
+            menu = new Menu();
         }
 
         /// <summary>
@@ -95,7 +99,9 @@ namespace Letalka
             spriteBatch = new SpriteBatch(GraphicsDevice);
             backgroundTexture = Content.Load<Texture2D>("space/5");
             DebugString.LoadContent(Content);
-           
+            menu.LoadContent(Content);
+
+
 
             // TODO: use this.Content to load your game content here
         }
@@ -122,6 +128,9 @@ namespace Letalka
             //playerShip.Update(gameTime);
             world.Update(gameTime);
 
+            menu.Update(gameTime);
+
+
             base.Update(gameTime);
         }
 
@@ -137,6 +146,12 @@ namespace Letalka
             spriteBatch.Draw(backgroundTexture, Vector2.Zero, null, Color.White, 0.0f, Vector2.Zero, ratio , SpriteEffects.None, 1.0f);
             world.Draw(spriteBatch);
             DebugString.Draw(spriteBatch);
+
+
+            menu.Draw(spriteBatch);
+
+
+
             spriteBatch.End();
             // TODO: Add your drawing code here
 
