@@ -49,6 +49,7 @@
     <Compile Include="Gun.cs" />
     <Compile Include="GunType.cs" />
     <Compile Include="LTH.cs" />
+    <Compile Include="Menu.cs" />
     <Compile Include="Player.cs" />
     <Compile Include="playerShip.cs" />
     <Compile Include="Spaceship.cs" />

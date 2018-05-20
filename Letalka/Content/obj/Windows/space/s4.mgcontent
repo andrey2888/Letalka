@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>D:/projects/MonoLetalka/Letalka/Letalka/Content/space/s4.png</SourceFile>
-  <SourceTime>2018-05-06T15:50:40+03:00</SourceTime>
-  <DestFile>D:/projects/MonoLetalka/Letalka/Letalka/Content/bin/Windows/space/s4.xnb</DestFile>
-  <DestTime>2018-05-06T16:13:51.0608537+03:00</DestTime>
+  <SourceFile>E:/z/8151937/ПиАПС/lhab/Letalka/Letalka/Content/space/s4.png</SourceFile>
+  <SourceTime>2018-05-20T12:33:06.0974973+03:00</SourceTime>
+  <DestFile>E:/z/8151937/ПиАПС/lhab/Letalka/Letalka/Content/bin/Windows/space/s4.xnb</DestFile>
+  <DestTime>2018-05-20T12:34:38.1568649+03:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2017-03-01T18:05:36+03:00</ImporterTime>
   <Processor>TextureProcessor</Processor>
