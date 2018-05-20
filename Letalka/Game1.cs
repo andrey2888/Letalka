@@ -49,18 +49,22 @@ namespace Letalka
             graphics.IsFullScreen = true;
             graphics.ApplyChanges();
             Vector2 playerPosition = new Vector2(GraphicsDevice.Viewport.TitleSafeArea.X, GraphicsDevice.Viewport.TitleSafeArea.Y + GraphicsDevice.Viewport.TitleSafeArea.Height / 2);//dich
-            playerLTH = new LTH(0.1f,0.05f,0.03f,0.0005f,50,75);
+            playerLTH = new LTH(0.1f,0.1f,0.03f,0.0005f,50,75);
             compLTH = new LTH(0.1f, 0.05f, 0.03f, 0.0005f, 50, 75);
             pulemetTex = Content.Load<Texture2D>("projectiles/bullet1");
             Bullet pulemetBullet = new Bullet(Vector2.Zero, 7f, 10, 5, pulemetTex);
             pulemet = new GunType(0.1f, 7f, 20f, pulemetBullet);
             Texture2D plasmaTex = Content.Load<Texture2D>("projectiles/bullet2");
-            Bullet plasmaBullet = new Bullet(Vector2.Zero, 100f, 30, 15, plasmaTex);
-            GunType plasmamet = new GunType(0.1f, 7f, 5f, plasmaBullet);
+            Bullet plasmaBullet = new Bullet(Vector2.Zero, 100f, 30, 15, plasmaTex,solid:true);
+            GunType plasmamet = new GunType(1f, 7f, 5f, plasmaBullet);
+            Bullet magnetBullet = new MagnetBullet(Vector2.Zero, 5f, 10, 10, plasmaTex);
+            GunType magnetmet = new GunType(0.03f, 7f, 25f, magnetBullet, 0.3f);
             spaceship = new Spaceship(Content.Load<Texture2D>("space/s2"),playerLTH,playerPosition,0.0f);
-            /*spaceship.AddGun(pulemet, new Vector2(0f,  20f));
-            spaceship.AddGun(pulemet, new Vector2(0f, -20f));*/
-            spaceship.AddGun(plasmamet, new Vector2(40f, 0f));
+            spaceship.AddGun(magnetmet, new Vector2(0f,  20f));
+            spaceship.AddGun(magnetmet, new Vector2(0f, -20f));
+            spaceship.AddGun(magnetmet, new Vector2(40f, 15f));
+            spaceship.AddGun(magnetmet, new Vector2(40f, -15f));
+            //spaceship.AddGun(magnetmet, new Vector2(40f, 0f));
             playerShip = new PlayerShip(spaceship);
             world.playerShip = spaceship;
             world.players.Add(playerShip);

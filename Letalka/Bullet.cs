@@ -10,13 +10,14 @@ namespace Letalka
 {
     class Bullet:WorldObject
     {
-        Texture2D texture;
+        protected Texture2D texture;
         float flightTime = 0;
         float invincibleTime = 0.05f;//calculate this
         float lifeTime = 10;
-        float damage;
-        public Bullet(Vector2 position, float damage, float length, float width, Texture2D texture):base(position,length,width)
+        protected float damage;
+        public Bullet(Vector2 position, float damage, float length, float width, Texture2D texture, bool solid = false):base(position,length,width)
         {
+            this.solid = solid;
             this.damage = damage;
             this.texture = texture;
         }
@@ -40,9 +41,9 @@ namespace Letalka
                 other.getDamage(damage);
             }
         }
-        public Bullet Clone()
+        public virtual Bullet Clone()
         {
-            return new Bullet(position,damage,length,width,texture);
+            return new Bullet(position,damage,length,width,texture,solid);
         }
     }
 }
