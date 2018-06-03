@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm9="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner"
+  dslVersion="1.0.0.0"
+  Id="72298806-55c9-4fea-92a6-0d41dfbccee3"
+  name="Framework"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="b639a32d-ee42-40fb-bfb1-82be3cf66a2b"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DMicrosoft.Xna.Framework"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="3e9cf204-d43f-4cac-999e-39b80c3d5bde"
+        LastKnownName="Graphics"
+        LastKnownLocation="Package4_1355.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="d31a120e-d970-42d7-9a57-ccbde1f73e38"
+        name="GameTime"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="e73ef0d5-fe67-40c8-b887-caf471a87e4f"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FMonoGame%2Fv3.0%2FAssemblies%2FWindows%2FMonoGame.Framework.dll&quot; Namespace%3DMicrosoft.Xna.Framework Type%3DGameTime"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="17bfc65d-bc86-45b3-9ff0-a76249b019c6"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5af45fc3-8c36-45b3-b2ec-27ca94108f5e">
+                <propertyInstance
+                  Id="59211eff-c56e-46b0-9b0a-19bc97b1eefb"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4747f213-09b3-4a09-99a8-f7b531c58894">
+                <propertyInstance
+                  Id="3416e893-473b-457e-bd01-96a0321a1fa7"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9fb680c3-25ec-4d52-8918-5d255fed3a8b">
+                <propertyInstance
+                  Id="8a894c11-a2d6-4340-b4d9-4c7ef9db93bd"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="02773ee8-b9ca-4fd0-b025-c07aff7953fe">
+                <propertyInstance
+                  Id="4316f6cc-7c4f-4983-807d-2e5241152cb7"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8c0c74a0-775d-4588-9c65-d2517d5847d2">
+                <propertyInstance
+                  Id="7696f0f6-3e0f-460d-9284-2aa2de2f5f91"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="825b23bd-9032-49d8-b7ed-a2f43e86a294"
+        name="GraphicsDeviceManager"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="99f6d645-4afa-4895-95ce-bbcbab2e873f"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FMonoGame%2Fv3.0%2FAssemblies%2FWindows%2FMonoGame.Framework.dll&quot; Namespace%3DMicrosoft.Xna.Framework Type%3DGraphicsDeviceManager"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="7c353579-6270-4180-84d4-4eaf46ecc3b7"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8f9c6c69-e9c1-4d73-b290-40b2140049ee">
+                <propertyInstance
+                  Id="46d01bc7-b391-4726-a1eb-82ac36af9410"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="cc957a80-a27c-442c-9c5d-f7ad347aa46d">
+                <propertyInstance
+                  Id="243d6b87-6e8a-42f9-af6c-65676bd51cf8"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b696a2e5-93d4-4d4a-b905-2318034ce431">
+                <propertyInstance
+                  Id="d5f16d45-023a-4f98-a946-4673075d2dde"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1c2bc3b1-de59-4894-8670-0f90c8309e64">
+                <propertyInstance
+                  Id="94bba805-919f-4267-95e0-26e8131b6e9b"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="70386be2-b6db-426e-80d7-20a53828335b">
+                <propertyInstance
+                  Id="2f0330e6-ef70-4107-87dd-14293d1a7cd1"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="419240e3-5073-4d2e-a6e4-035d9bdc9321"
+        name="Game"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="4a5b381c-fc4f-4de7-a028-a3bc4de7561f"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FMonoGame%2Fv3.0%2FAssemblies%2FWindows%2FMonoGame.Framework.dll&quot; Namespace%3DMicrosoft.Xna.Framework Type%3DGame"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="cc04df8e-184b-4e3c-a672-6f39456ad289"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="173565bf-a810-4ddd-824b-3485fbe1cea5">
+                <propertyInstance
+                  Id="b76d2640-cc7c-4c04-b7a8-829d58fae475"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a11cbfa0-54f7-4548-8594-52c0a06cddcf">
+                <propertyInstance
+                  Id="95c97513-214d-43ed-b71f-7a76e4b25f34"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2f2ad650-3bb2-4dad-8c07-5e0964c45f5c">
+                <propertyInstance
+                  Id="df56a4dd-e465-417d-9c70-bcc3e3933387"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1716d05f-bddb-4240-880e-0e67cd3759c5">
+                <propertyInstance
+                  Id="b3526a6f-6187-43fa-8ea3-7f4f5de980a9"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="096afb08-9ed2-4ae7-98c1-a6b9a0329130">
+                <propertyInstance
+                  Id="85476200-6ab1-4b17-a7e1-ef8381b8a718"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="0949177b-dcde-4cc3-b4d3-62a1cb7ab988"
+        name="Vector2"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="6b1d94ca-da35-4543-ac58-8d3e9707312b"
+            handle="viewcode://./CodeSchema_Struct?Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FMonoGame%2Fv3.0%2FAssemblies%2FWindows%2FMonoGame.Framework.dll&quot; Namespace%3DMicrosoft.Xna.Framework Type%3DVector2"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="1c360e07-ec49-4e62-b2b7-850b5173ae8a"
+            name="struct"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="dd3fd037-c514-46e7-89b3-9e7b589d3493">
+                <propertyInstance
+                  Id="3bb1c3ba-6e9e-4051-bae7-9bfe372e15e7"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="44e27785-471d-4267-a22a-4f9912eae308">
+                <propertyInstance
+                  Id="f1f3b514-1415-4e31-9a3f-fd45f2e666a8"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="16ec2472-a7f7-4f7d-8e8d-3db4c5daf82d">
+                <propertyInstance
+                  Id="e0422c23-2b8d-478f-8f03-8759d6d25343"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="fc888fd2-b08c-4ccf-bade-d51d2d7227e6">
+                <propertyInstance
+                  Id="02d1ba1e-f9e3-465b-bbb5-632b6f530e2d"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="9e44df1e-b137-4638-b946-60a98e84c49e"
+        LastKnownName="Input"
+        LastKnownLocation="Package6_1355.uml" />
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

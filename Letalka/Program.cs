@@ -14,8 +14,7 @@ namespace Letalka
         [STAThread]
         static void Main()
         {
-            using (var game = new Game1())
-                game.Run();
+            new GameContext().Run();
         }
     }
 #endif

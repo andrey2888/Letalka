@@ -47,7 +47,7 @@ namespace Letalka
             {
                 spaceship.Fire();
             }
-            DebugString.toPrint = spaceship.HP + "   " + spaceship.AP;
+            //DebugString.toPrint = spaceship.HP + "   " + spaceship.AP;
             //spaceship.Update(gameTime);
         }
         

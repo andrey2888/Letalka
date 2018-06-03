@@ -61,7 +61,14 @@ namespace Letalka
                 if (objects[i].deleteMe) objects.Remove(objects[i]);
             }
         }
-
+        public void DeleteAll()
+        {
+            objects.Clear();
+             /*for(int i = 0; i < objects.Count; i++)
+            {
+                objects.Remove(objects[i]);
+            }*/
+        }
         public void Draw(SpriteBatch spriteBatch)
         {
             foreach (WorldObject wo in objects)

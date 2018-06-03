@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Profile>Reach</Profile>
+  <Platform>Windows</Platform>
+  <Config />
+  <SourceFiles>
+    <File>C:/Users/User/Desktop/Лабы/Letalka-master/Letalka/Content/space/1.jpg</File>
+    <File>C:/Users/User/Desktop/Лабы/Letalka-master/Letalka/Content/space/2.jpg</File>
+    <File>C:/Users/User/Desktop/Лабы/Letalka-master/Letalka/Content/space/3.jpg</File>
+    <File>C:/Users/User/Desktop/Лабы/Letalka-master/Letalka/Content/space/4.jpg</File>
+    <File>C:/Users/User/Desktop/Лабы/Letalka-master/Letalka/Content/space/5.jpg</File>
+    <File>C:/Users/User/Desktop/Лабы/Letalka-master/Letalka/Content/space/6.jpg</File>
+    <File>C:/Users/User/Desktop/Лабы/Letalka-master/Letalka/Content/space/s1.png</File>
+    <File>C:/Users/User/Desktop/Лабы/Letalka-master/Letalka/Content/space/s2.png</File>
+    <File>C:/Users/User/Desktop/Лабы/Letalka-master/Letalka/Content/space/s3.png</File>
+    <File>C:/Users/User/Desktop/Лабы/Letalka-master/Letalka/Content/space/s4.png</File>
+    <File>C:/Users/User/Desktop/Лабы/Letalka-master/Letalka/Content/space/s5.png</File>
+    <File>C:/Users/User/Desktop/Лабы/Letalka-master/Letalka/Content/space/vs1.png</File>
+    <File>C:/Users/User/Desktop/Лабы/Letalka-master/Letalka/Content/space/vs2.png</File>
+    <File>C:/Users/User/Desktop/Лабы/Letalka-master/Letalka/Content/space/vs3.png</File>
+    <File>C:/Users/User/Desktop/Лабы/Letalka-master/Letalka/Content/space/vs4.png</File>
+    <File>C:/Users/User/Desktop/Лабы/Letalka-master/Letalka/Content/space/vs5.png</File>
+    <File>C:/Users/User/Desktop/Лабы/Letalka-master/Letalka/Content/projectiles/bullet1.png</File>
+    <File>C:/Users/User/Desktop/Лабы/Letalka-master/Letalka/Content/Font.spritefont</File>
+    <File>C:/Users/User/Desktop/Лабы/Letalka-master/Letalka/Content/space/exit.png</File>
+    <File>C:/Users/User/Desktop/Лабы/Letalka-master/Letalka/Content/space/menu.png</File>
+    <File>C:/Users/User/Desktop/Лабы/Letalka-master/Letalka/Content/space/newgame.png</File>
+    <File>C:/Users/User/Desktop/Лабы/Letalka-master/Letalka/Content/projectiles/bullet2.png</File>
+    <File>C:/Users/User/Desktop/Лабы/Letalka-master/Letalka/Content/projectiles/M484BulletCollection1.png</File>
+  </SourceFiles>
+</SourceFileCollection>

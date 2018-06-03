@@ -42,8 +42,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Angle.cs" />
+    <Compile Include="GameContext.cs" />
     <Compile Include="Bullet.cs" />
     <Compile Include="ComputerShip.cs" />
+    <Compile Include="GameState.cs" />
     <Compile Include="MagnetBullet.cs" />
     <Compile Include="DebugString.cs" />
     <Compile Include="Game1.cs" />
@@ -51,9 +53,11 @@
     <Compile Include="GunType.cs" />
     <Compile Include="LTH.cs" />
     <Compile Include="Menu.cs" />
+    <Compile Include="Observer.cs" />
     <Compile Include="Player.cs" />
     <Compile Include="playerShip.cs" />
     <Compile Include="Spaceship.cs" />
+    <Compile Include="StateFactory.cs" />
     <Compile Include="Vector2Extention.cs" />
     <Compile Include="World.cs" />
     <Compile Include="WorldObject.cs" />

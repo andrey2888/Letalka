@@ -1,24 +1,23 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Content;
 
 namespace Letalka
 {
-    class DebugString
+    public class DebugString : Observer
     {
-        static SpriteFont spriteFont;
-        public static void LoadContent(ContentManager content)
+        SpriteFont spriteFont;
+        SpriteBatch batch;
+        
+        public DebugString(GameContext context)
         {
-           spriteFont = content.Load<SpriteFont>("Font");
+            spriteFont = context.Content.Load<SpriteFont>("Font");
+            batch = context.SpriteBatch;
         }
-        public static String toPrint = "";
-        public static void Draw(SpriteBatch batch) {
-            batch.DrawString(spriteFont, toPrint, Vector2.Zero, Color.White);
+        public void Update(string message)
+        {
+            batch.DrawString(spriteFont, message, Vector2.Zero, Color.White);
         }
     }
 }

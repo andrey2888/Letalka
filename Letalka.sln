@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26730.16
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Letalka", "Letalka\Letalka.csproj", "{736FD57E-F8F8-41FA-BD4F-8FEED96A182D}"
 EndProject
@@ -10,16 +10,38 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		Player.txt = Player.txt
 	EndProjectSection
 EndProject
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "ModelingProject1", "ModelingProject1\ModelingProject1.modelproj", "{B3A13CA1-2B76-4373-8206-D7E48DCA3A8A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
 		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{736FD57E-F8F8-41FA-BD4F-8FEED96A182D}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{736FD57E-F8F8-41FA-BD4F-8FEED96A182D}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{736FD57E-F8F8-41FA-BD4F-8FEED96A182D}.Debug|Mixed Platforms.Build.0 = Debug|x86
 		{736FD57E-F8F8-41FA-BD4F-8FEED96A182D}.Debug|x86.ActiveCfg = Debug|x86
 		{736FD57E-F8F8-41FA-BD4F-8FEED96A182D}.Debug|x86.Build.0 = Debug|x86
+		{736FD57E-F8F8-41FA-BD4F-8FEED96A182D}.Release|Any CPU.ActiveCfg = Release|x86
+		{736FD57E-F8F8-41FA-BD4F-8FEED96A182D}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{736FD57E-F8F8-41FA-BD4F-8FEED96A182D}.Release|Mixed Platforms.Build.0 = Release|x86
 		{736FD57E-F8F8-41FA-BD4F-8FEED96A182D}.Release|x86.ActiveCfg = Release|x86
 		{736FD57E-F8F8-41FA-BD4F-8FEED96A182D}.Release|x86.Build.0 = Release|x86
+		{B3A13CA1-2B76-4373-8206-D7E48DCA3A8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3A13CA1-2B76-4373-8206-D7E48DCA3A8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3A13CA1-2B76-4373-8206-D7E48DCA3A8A}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{B3A13CA1-2B76-4373-8206-D7E48DCA3A8A}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{B3A13CA1-2B76-4373-8206-D7E48DCA3A8A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B3A13CA1-2B76-4373-8206-D7E48DCA3A8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3A13CA1-2B76-4373-8206-D7E48DCA3A8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3A13CA1-2B76-4373-8206-D7E48DCA3A8A}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{B3A13CA1-2B76-4373-8206-D7E48DCA3A8A}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{B3A13CA1-2B76-4373-8206-D7E48DCA3A8A}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,329 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/PROGRAM FILES (X86)/MICROSOFT VISUAL STUDIO 12.0/COMMON7/IDE/EXTENSIONS/MICROSOFT/ARCHITECTURE TOOLS/EXTENSIBILITY/Logging/ReverseEngineeringLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log" Label="Журнал создания кода/преобразования текста">
+  <MessageClass Name="Message" Label="Сообщение" Option="Показывать информационные сообщения" />
+  <MessageClass Name="Warning" Label="Предупреждение" Option="Показывать предупреждения" />
+  <MessageClass Name="Error" Label="Ошибка" Option="Показывать ошибки" />
+  <MessageClass Name="Property" Label="Свойство" Option="Показывать метаданные" />
+  <MessageClass Name="Diagnostic" Label="Сообщение" Option="Показывать диагностические сообщения" />
+  <Message Timestamp="2018-05-22T13:55:31" Importance="High" Text="Реконструирование запущено." />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;3138cfab-570c-405b-9a4f-d8528d78d90d&quot; -  (ClassifierTemplateParameter)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;4a363418-f0c1-4645-8539-4039be9987f7&quot; -  (ClassifierTemplateParameter)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;4f6e3139-6787-4ddd-957d-27feaeaa0923&quot; -  (ClassifierTemplateParameter)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;Boolean&quot; -  (PrimitiveType)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;Integer&quot; -  (PrimitiveType)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka&quot; -  (Package)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Medium" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::AngleFunc&quot; -  (Class)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::AngleFunc::AngleFunc&quot; -  (Operation)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::AngleFunc::Diff&quot; -  (Operation)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::AngleFunc::Diff::a&quot; -  (Parameter)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::AngleFunc::Diff::b&quot; -  (Parameter)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Medium" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Bullet&quot; -  (Class)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Bullet::Bullet&quot; -  (Operation)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Bullet::Bullet::damage&quot; -  (Parameter)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Bullet::Bullet::length&quot; -  (Parameter)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Bullet::Bullet::position&quot; -  (Parameter)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Bullet::Bullet::solid&quot; -  (Parameter)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Bullet::Bullet::texture&quot; -  (Parameter)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Bullet::Bullet::width&quot; -  (Parameter)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Bullet::Clone&quot; -  (Operation)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Bullet::damage&quot; -  (Property)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Bullet::Draw&quot; -  (Operation)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Bullet::Draw::spriteBatch&quot; -  (Parameter)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Bullet::flightTime&quot; -  (Property)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Bullet::invincibleTime&quot; -  (Property)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Bullet::lifeTime&quot; -  (Property)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Bullet::onCollision&quot; -  (Operation)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Bullet::onCollision::other&quot; -  (Parameter)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Bullet::texture&quot; -  (Property)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Bullet::Update&quot; -  (Operation)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Bullet::Update::gameTime&quot; -  (Parameter)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Medium" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::ComputerShip&quot; -  (Class)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::ComputerShip::ComputerShip&quot; -  (Operation)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::ComputerShip::ComputerShip::spaceship&quot; -  (Parameter)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::ComputerShip::currentKeyboardState&quot; -  (Property)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::ComputerShip::spaceship&quot; -  (Property)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::ComputerShip::Update&quot; -  (Operation)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::ComputerShip::Update::gameTime&quot; -  (Parameter)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::ComputerShip::world&quot; -  (Property)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Medium" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::DebugString&quot; -  (Class)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::DebugString::batch&quot; -  (Property)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::DebugString::DebugString&quot; -  (Operation)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::DebugString::DebugString::context&quot; -  (Parameter)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::DebugString::spriteFont&quot; -  (Property)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::DebugString::Update&quot; -  (Operation)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::DebugString::Update::message&quot; -  (Parameter)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Medium" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Game1&quot; -  (Class)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Game1::backgroundTexture&quot; -  (Property)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Game1::compLTH&quot; -  (Property)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Game1::Draw&quot; -  (Operation)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Game1::Draw::context&quot; -  (Parameter)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Game1::Draw::gameTime&quot; -  (Parameter)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Game1::Game1&quot; -  (Operation)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Game1::graphics&quot; -  (Property)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Game1::Initialize&quot; -  (Operation)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Game1::Initialize::context&quot; -  (Parameter)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Game1::LoadContent&quot; -  (Operation)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Game1::LoadContent::context&quot; -  (Parameter)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Game1::playerLTH&quot; -  (Property)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Game1::playerShip&quot; -  (Property)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Game1::pulemet&quot; -  (Property)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Game1::pulemetTex&quot; -  (Property)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Game1::spaceship&quot; -  (Property)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Game1::UnloadContent&quot; -  (Operation)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Game1::UnloadContent::context&quot; -  (Parameter)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Game1::Update&quot; -  (Operation)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Game1::Update::context&quot; -  (Parameter)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Game1::Update::gameTime&quot; -  (Parameter)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Game1::world&quot; -  (Property)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Medium" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::GameContext&quot; -  (Class)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::GameContext::_state&quot; -  (Property)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::GameContext::Draw&quot; -  (Operation)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::GameContext::Draw::gameTime&quot; -  (Parameter)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::GameContext::GameContext&quot; -  (Operation)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::GameContext::Height&quot; -  (Property)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::GameContext::Initialize&quot; -  (Operation)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::GameContext::LoadContent&quot; -  (Operation)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::GameContext::SpriteBatch&quot; -  (Property)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::GameContext::State&quot; -  (Property)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::GameContext::UnloadContent&quot; -  (Operation)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::GameContext::Update&quot; -  (Operation)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::GameContext::Update::gameTime&quot; -  (Parameter)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::GameContext::Width&quot; -  (Property)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Medium" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Gun&quot; -  (Class)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Gun::Fire&quot; -  (Operation)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Gun::Gun&quot; -  (Operation)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Gun::Gun::parent&quot; -  (Parameter)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Gun::Gun::position&quot; -  (Parameter)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Gun::Gun::type&quot; -  (Parameter)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Gun::lastShot&quot; -  (Property)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Gun::parent&quot; -  (Property)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Gun::position&quot; -  (Property)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Gun::rand&quot; -  (Property)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Gun::type&quot; -  (Property)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Gun::Update&quot; -  (Operation)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Gun::Update::gameTime&quot; -  (Parameter)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Medium" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::GunType&quot; -  (Class)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::GunType::accuracy&quot; -  (Property)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::GunType::bulletPrototype&quot; -  (Property)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::GunType::bulletSpeed&quot; -  (Property)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::GunType::coolDown&quot; -  (Property)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::GunType::damage&quot; -  (Property)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::GunType::GunType&quot; -  (Operation)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::GunType::GunType::accuracy&quot; -  (Parameter)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::GunType::GunType::bulletPrototype&quot; -  (Parameter)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::GunType::GunType::bulletSpeed&quot; -  (Parameter)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::GunType::GunType::coolDown&quot; -  (Parameter)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::GunType::GunType::damage&quot; -  (Parameter)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Medium" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::IGameState&quot; -  (Interface)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::IGameState::Draw&quot; -  (Operation)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::IGameState::Draw::context&quot; -  (Parameter)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::IGameState::Draw::gameTime&quot; -  (Parameter)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::IGameState::Initialize&quot; -  (Operation)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::IGameState::Initialize::context&quot; -  (Parameter)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::IGameState::LoadContent&quot; -  (Operation)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::IGameState::LoadContent::context&quot; -  (Parameter)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::IGameState::UnloadContent&quot; -  (Operation)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::IGameState::UnloadContent::context&quot; -  (Parameter)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::IGameState::Update&quot; -  (Operation)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::IGameState::Update::context&quot; -  (Parameter)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::IGameState::Update::gameTime&quot; -  (Parameter)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Medium" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::LTH&quot; -  (Class)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::LTH::backwardSpeed&quot; -  (Property)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::LTH::forwardSpeed&quot; -  (Property)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::LTH::length&quot; -  (Property)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::LTH::LTH&quot; -  (Operation)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::LTH::LTH::backwardSpeed&quot; -  (Parameter)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::LTH::LTH::forwardSpeed&quot; -  (Parameter)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::LTH::LTH::length&quot; -  (Parameter)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::LTH::LTH::strafeSpeed&quot; -  (Parameter)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::LTH::LTH::turnSpeed&quot; -  (Parameter)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::LTH::LTH::width&quot; -  (Parameter)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::LTH::strafeSpeed&quot; -  (Property)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::LTH::turnSpeed&quot; -  (Property)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::LTH::width&quot; -  (Property)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Medium" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::MagnetBullet&quot; -  (Class)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::MagnetBullet::Clone&quot; -  (Operation)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::MagnetBullet::inactiveTime&quot; -  (Property)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::MagnetBullet::MagnetBullet&quot; -  (Operation)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::MagnetBullet::MagnetBullet::damage&quot; -  (Parameter)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::MagnetBullet::MagnetBullet::length&quot; -  (Parameter)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::MagnetBullet::MagnetBullet::position&quot; -  (Parameter)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::MagnetBullet::MagnetBullet::texture&quot; -  (Parameter)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::MagnetBullet::MagnetBullet::width&quot; -  (Parameter)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::MagnetBullet::MagnetPower&quot; -  (Property)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::MagnetBullet::Update&quot; -  (Operation)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::MagnetBullet::Update::gameTime&quot; -  (Parameter)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Medium" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Menu&quot; -  (Class)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Menu::currentKeyboardState&quot; -  (Property)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Menu::Draw&quot; -  (Operation)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Menu::Draw::context&quot; -  (Parameter)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Menu::Draw::gameTime&quot; -  (Parameter)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Menu::exit&quot; -  (Property)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Menu::Initialize&quot; -  (Operation)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Menu::Initialize::context&quot; -  (Parameter)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Menu::LoadContent&quot; -  (Operation)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Menu::LoadContent::context&quot; -  (Parameter)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Menu::Menu&quot; -  (Operation)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Menu::menuItem&quot; -  (Property)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Menu::newGame&quot; -  (Property)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Menu::UnloadContent&quot; -  (Operation)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Menu::UnloadContent::context&quot; -  (Parameter)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Menu::Update&quot; -  (Operation)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Menu::Update::context&quot; -  (Parameter)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Menu::Update::gameTime&quot; -  (Parameter)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Medium" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Observable&quot; -  (Class)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Observable::NotifyAll&quot; -  (Operation)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Observable::NotifyAll::message&quot; -  (Parameter)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Observable::Observable&quot; -  (Operation)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Observable::Observers&quot; -  (Property)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Medium" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Observer&quot; -  (Interface)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Observer::Update&quot; -  (Operation)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Observer::Update::message&quot; -  (Parameter)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Medium" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Player&quot; -  (Interface)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Player::Update&quot; -  (Operation)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Player::Update::gameTime&quot; -  (Parameter)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Medium" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::PlayerShip&quot; -  (Class)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::PlayerShip::currentKeyboardState&quot; -  (Property)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::PlayerShip::PlayerShip&quot; -  (Operation)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::PlayerShip::PlayerShip::spaceship&quot; -  (Parameter)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::PlayerShip::spaceship&quot; -  (Property)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::PlayerShip::Update&quot; -  (Operation)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::PlayerShip::Update::gameTime&quot; -  (Parameter)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Medium" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Program&quot; -  (Class)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Program::Main&quot; -  (Operation)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Medium" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Spaceship&quot; -  (Class)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Spaceship::AddGun&quot; -  (Operation)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Spaceship::AddGun::position&quot; -  (Parameter)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Spaceship::AddGun::type&quot; -  (Parameter)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Spaceship::AP&quot; -  (Property)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Spaceship::Draw&quot; -  (Operation)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Spaceship::Draw::spriteBatch&quot; -  (Parameter)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Spaceship::Fire&quot; -  (Operation)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Spaceship::getDamage&quot; -  (Operation)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Spaceship::getDamage::damage&quot; -  (Parameter)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Spaceship::GoBack&quot; -  (Operation)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Spaceship::GoForward&quot; -  (Operation)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Spaceship::GoLeft&quot; -  (Operation)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Spaceship::GoRight&quot; -  (Operation)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Spaceship::Guns&quot; -  (Property)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Spaceship::HP&quot; -  (Property)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Spaceship::lth&quot; -  (Property)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Spaceship::onCollision&quot; -  (Operation)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Spaceship::onCollision::other&quot; -  (Parameter)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Spaceship::Spaceship&quot; -  (Operation)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Spaceship::Spaceship::angle&quot; -  (Parameter)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Spaceship::Spaceship::lth&quot; -  (Parameter)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Spaceship::Spaceship::position&quot; -  (Parameter)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Spaceship::Spaceship::texture&quot; -  (Parameter)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Spaceship::texture&quot; -  (Property)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Spaceship::TurnLeft&quot; -  (Operation)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Spaceship::TurnRight&quot; -  (Operation)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Spaceship::Update&quot; -  (Operation)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Spaceship::Update::gameTime&quot; -  (Parameter)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Medium" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::StateFactory&quot; -  (Class)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::StateFactory::GetState&quot; -  (Operation)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::StateFactory::GetState::stateType&quot; -  (Parameter)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::StateFactory::StateFactory&quot; -  (Operation)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::StateFactory::states&quot; -  (Property)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Medium" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Vector2Extension&quot; -  (Class)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Vector2Extension::angle&quot; -  (Operation)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Vector2Extension::angle::v&quot; -  (Parameter)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Vector2Extension::Rotate&quot; -  (Operation)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Vector2Extension::Rotate::angle&quot; -  (Parameter)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::Vector2Extension::Rotate::v&quot; -  (Parameter)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Medium" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::World&quot; -  (Class)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::World::AddObject&quot; -  (Operation)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::World::AddObject::worldObject&quot; -  (Parameter)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::World::calculateCollisions&quot; -  (Operation)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::World::cleanUp&quot; -  (Operation)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::World::ClosestObject&quot; -  (Operation)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::World::ClosestObject::a&quot; -  (Parameter)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::World::ClosestSolidObject&quot; -  (Operation)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::World::ClosestSolidObject::a&quot; -  (Parameter)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::World::DeleteAll&quot; -  (Operation)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::World::Draw&quot; -  (Operation)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::World::Draw::spriteBatch&quot; -  (Parameter)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::World::getInstance&quot; -  (Operation)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::World::Height&quot; -  (Property)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::World::instance&quot; -  (Property)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::World::objects&quot; -  (Property)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::World::players&quot; -  (Property)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::World::playerShip&quot; -  (Property)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::World::ShortestPath&quot; -  (Operation)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::World::ShortestPath::a&quot; -  (Parameter)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::World::ShortestPath::b&quot; -  (Parameter)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::World::Update&quot; -  (Operation)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::World::Update::gameTime&quot; -  (Parameter)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::World::Width&quot; -  (Property)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::World::World&quot; -  (Operation)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Medium" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::WorldObject&quot; -  (Class)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::WorldObject::angle&quot; -  (Property)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::WorldObject::angularSpeed&quot; -  (Property)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::WorldObject::ApplyForce&quot; -  (Operation)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::WorldObject::ApplyForce::direction&quot; -  (Parameter)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::WorldObject::deleteMe&quot; -  (Property)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::WorldObject::dimentoins&quot; -  (Property)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::WorldObject::Draw&quot; -  (Operation)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::WorldObject::Draw::spriteBatch&quot; -  (Parameter)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::WorldObject::getDamage&quot; -  (Operation)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::WorldObject::getDamage::damage&quot; -  (Parameter)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::WorldObject::length&quot; -  (Property)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::WorldObject::onCollision&quot; -  (Operation)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::WorldObject::onCollision::other&quot; -  (Parameter)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::WorldObject::position&quot; -  (Property)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::WorldObject::solid&quot; -  (Property)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::WorldObject::speed&quot; -  (Property)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::WorldObject::Update&quot; -  (Operation)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::WorldObject::Update::gameTime&quot; -  (Parameter)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::WorldObject::width&quot; -  (Property)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::WorldObject::WorldObject&quot; -  (Operation)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::WorldObject::WorldObject::length&quot; -  (Parameter)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::WorldObject::WorldObject::position&quot; -  (Parameter)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Letalka::WorldObject::WorldObject::width&quot; -  (Parameter)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Microsoft&quot; -  (Package)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Microsoft::Xna&quot; -  (Package)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Microsoft::Xna::Framework&quot; -  (Package)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Microsoft::Xna::Framework::Game&quot; -  (Class)   (реконструирован частично - определение не обновлено) " />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Microsoft::Xna::Framework::GameTime&quot; -  (Class)   (реконструирован частично - определение не обновлено) " />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Microsoft::Xna::Framework::Graphics&quot; -  (Package)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Microsoft::Xna::Framework::Graphics::SpriteBatch&quot; -  (Class)   (реконструирован частично - определение не обновлено) " />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Microsoft::Xna::Framework::Graphics::SpriteFont&quot; -  (Class)   (реконструирован частично - определение не обновлено) " />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Microsoft::Xna::Framework::Graphics::Texture2D&quot; -  (Class)   (реконструирован частично - определение не обновлено) " />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Microsoft::Xna::Framework::GraphicsDeviceManager&quot; -  (Class)   (реконструирован частично - определение не обновлено) " />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Microsoft::Xna::Framework::Input&quot; -  (Package)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Microsoft::Xna::Framework::Input::KeyboardState&quot; -  (Class)   (реконструирован частично - определение не обновлено) " />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Microsoft::Xna::Framework::Vector2&quot; -  (Class)   (реконструирован частично - определение не обновлено) " />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::System&quot; -  (Package)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::System::Collections&quot; -  (Package)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::System::Collections::Generic&quot; -  (Package)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::System::Collections::Generic::Dictionary&quot; -  (Class)   (реконструирован частично - определение не обновлено) " />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::System::Collections::Generic::Dictionary&lt;Type‎, IGameState‎&gt;&quot; -  (Class)   (реконструирован частично - определение не обновлено) " />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::System::Collections::Generic::List&quot; -  (Class)   (реконструирован частично - определение не обновлено) " />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::System::Collections::Generic::List&lt;Gun‎&gt;&quot; -  (Class)   (реконструирован частично - определение не обновлено) " />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::System::Collections::Generic::List&lt;Observer‎&gt;&quot; -  (Class)   (реконструирован частично - определение не обновлено) " />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::System::Collections::Generic::List&lt;Player‎&gt;&quot; -  (Class)   (реконструирован частично - определение не обновлено) " />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::System::Collections::Generic::List&lt;WorldObject‎&gt;&quot; -  (Class)   (реконструирован частично - определение не обновлено) " />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::System::Random&quot; -  (Class)   (реконструирован частично - определение не обновлено) " />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::System::Single&quot; -  (Class)   (реконструирован частично - определение не обновлено) " />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::System::Type&quot; -  (Class)   (реконструирован частично - определение не обновлено) " />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::System::UInt32&quot; -  (Class)   (реконструирован частично - определение не обновлено) " />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;String&quot; -  (PrimitiveType)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Отношение реконструировано в модели UML: ModelingProject1::Letalka::DebugString в ModelingProject1::Letalka::Observer (InterfaceRealization)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Отношение реконструировано в модели UML: ModelingProject1::Letalka::Game1 в ModelingProject1::Letalka::IGameState (InterfaceRealization)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Отношение реконструировано в модели UML: ModelingProject1::Letalka::Game1 в ModelingProject1::Letalka::Observable (Generalization)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Отношение реконструировано в модели UML: ModelingProject1::Letalka::GameContext в ModelingProject1::Microsoft::Xna::Framework::Graphics::SpriteBatch (Association)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Отношение реконструировано в модели UML: ModelingProject1::Letalka::GameContext в ModelingProject1::Letalka::IGameState (Association)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Отношение реконструировано в модели UML: ModelingProject1::Letalka::GameContext в ModelingProject1::Microsoft::Xna::Framework::Game (Generalization)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Отношение реконструировано в модели UML: ModelingProject1::Letalka::MagnetBullet в ModelingProject1::Letalka::Bullet (Generalization)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Отношение реконструировано в модели UML: ModelingProject1::Letalka::Menu в ModelingProject1::Letalka::IGameState (InterfaceRealization)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Отношение реконструировано в модели UML: ModelingProject1::Letalka::Observable в ModelingProject1::System::Collections::Generic::List&lt;Observer‎&gt; (Association)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Отношение реконструировано в модели UML: ModelingProject1::Letalka::PlayerShip в ModelingProject1::Letalka::Player (InterfaceRealization)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Отношение реконструировано в модели UML: ModelingProject1::Letalka::Spaceship в ModelingProject1::Letalka::WorldObject (Generalization)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Отношение реконструировано в модели UML: ModelingProject1::Letalka::WorldObject в ModelingProject1::System::Single (Association)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Отношение реконструировано в модели UML: ModelingProject1::Letalka::Bullet в ModelingProject1::Letalka::WorldObject (Generalization)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="Diagnostic" Text="Отношение реконструировано в модели UML: ModelingProject1::Letalka::ComputerShip в ModelingProject1::Letalka::Player (InterfaceRealization)" />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="High" Text="Полностью реконструировано (22) типов." />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="High" Text="Частично реконструировано (19) типов.  Эти типы не были включены в исходный выбор, поэтому их полные определения не реконструированы.  Данная пустая операция лишь проверила наличие этих типов в модели UML, поскольку они необходимы для полного описания других элементов." />
+  <Message Timestamp="2018-05-22T13:56:01" Importance="High" Text="Операция реконструирования завершена; ошибок: (0), предупреждений: (0)." />
+</Log>
